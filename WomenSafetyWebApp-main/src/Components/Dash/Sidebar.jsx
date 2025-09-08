@@ -9,7 +9,7 @@ const Sidebar = () => {
   const [auth, setAuth] = useAuth();
   const navigate = useNavigate()
 
-  const handleSubmit = () => {
+  const handleSubmit = () => { 
     setAuth({
       ...auth,
       user: null,
